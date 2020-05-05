@@ -1,15 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-// import App from './App';
+import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 // import Counter from "./components/Counter";
-import Counters from "./components/Counters";
+// import Counters from "./components/Counters";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Counters />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
